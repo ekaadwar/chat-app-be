@@ -1,0 +1,63 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Go build artifacts
+# =========================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build folders
+bin/
+dist/
+build/
+tmp/
+
+# Go workspace (if any)
+go.work
+go.work.sum
+
+# Coverage / profiling
+coverage.out
+*.cover
+*.prof
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS / Editor / IDE
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Tooling caches
+# =========================
+# Go test cache (rarely committed)
+**/.cache/
+
+# =========================
+# Docker / local services
+# =========================
+# If you use docker compose locally and generate volumes
+docker-data/
+data/
