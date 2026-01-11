@@ -1,0 +1,25 @@
+# Chat Backend (Go + MySQL + GORM + WebSocket)
+
+Backend untuk fitur chat real-time menggunakan:
+
+- Go (Golang)
+- MySQL
+- GORM (ORM)
+- Gin (REST API)
+- WebSocket (`nhooyr.io/websocket`)
+
+## Prerequisites
+
+Pastikan tools berikut sudah terinstall di device kamu:
+
+- Go (>= 1.20 disarankan)
+- MySQL Server (MySQL 8+ disarankan)
+- Git
+
+Cek versi:
+
+```bash
+go version
+mysql --version
+git --version
+```
